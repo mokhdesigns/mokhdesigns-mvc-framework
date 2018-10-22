@@ -1,0 +1,48 @@
+/*
+ * Register Page Styling 
+ */
+
+.register_page{
+    background: #000000b3;
+}
+.register_form{
+    margin-top: 100px;
+    background: #ffffff80;
+    padding: 40px 0px;
+    overflow: hidden;
+    border-radius: 40px;
+}
+.register_form .form-control,
+.register_form .btn{
+   width:  90% !important;
+    margin-left: 5%;
+    border-radius: 40px;
+    
+}
+.register_form .form-control{
+    background: #fff6;
+}
+.register_form .form-control::placeholder{
+    color: #fff;
+}
+.register_form .fa{
+    position: relative;
+    left: 50%;
+    font-size: 40px;
+    transform: translateX(-50%);
+    color: #337ab7;
+}
+
+.register_form  a{
+    margin: 0 auto;
+    display: inherit; 
+    color: #000;
+}
+
+.register_form .text-danger{
+    display: flow-root;
+    text-align: center;
+}
+/*
+ * End Of Register Page Styling 
+ */
